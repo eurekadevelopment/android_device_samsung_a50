@@ -37,8 +37,8 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 ## Device identifier, this must come after all inclusions
-PRODUCT_DEVICE := a505f
-PRODUCT_NAME := aosp_a505f
+PRODUCT_DEVICE := a50
+PRODUCT_NAME := aosp_a50
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A505F
 PRODUCT_MANUFACTURER := samsung
