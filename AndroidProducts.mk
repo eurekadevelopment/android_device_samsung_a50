@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cipher_a50.mk
+    $(LOCAL_DIR)/arrow_a50.mk
 
 COMMON_LUNCH_CHOICES := \
-    cipher_a50-eng \
-    cipher_a50-user \
-    cipher_a50-userdebug
+    arrow_a50-eng \
+    arrow_a50-user \
+    arrow_a50-userdebug
