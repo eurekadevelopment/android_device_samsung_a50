@@ -15,10 +15,10 @@
 #
 
 # Inherit from the common tree
-$(call inherit-product, device/samsung/a50-common/common.mk)
+$(call inherit-product, device/samsung/universal9610-common/common.mk)
 
 # Inherit proprietary files
-$(call inherit-product, vendor/samsung/a505f/a505f-vendor.mk)
+$(call inherit-product, vendor/samsung/a50/a50-vendor.mk)
 
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
