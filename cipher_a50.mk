@@ -30,15 +30,20 @@ TARGET_SCREEN_WIDTH := 1080
 ## Quick Tap
 TARGET_SUPPORTS_QUICK_TAP := true
 
+# Cipher
+TARGET_FACE_UNLOCK_SUPPORTED := true
+CIPHER_GAPPS := true
+CIPHER_MAINTAINER := Neel0210
+
 ## Inherit some common AOSP stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/cipher/config/common_full_phone.mk)
 
 ## Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 ## Device identifier, this must come after all inclusions
 PRODUCT_DEVICE := a50
-PRODUCT_NAME := aosp_a50
+PRODUCT_NAME := cipher_a50
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A505F
 PRODUCT_MANUFACTURER := samsung

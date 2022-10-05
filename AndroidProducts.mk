@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_a50.mk
+    $(LOCAL_DIR)/cipher_a50.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_a50-eng \
-    aosp_a50-user \
-    aosp_a50-userdebug
+    cipher_a50-eng \
+    cipher_a50-user \
+    cipher_a50-userdebug
