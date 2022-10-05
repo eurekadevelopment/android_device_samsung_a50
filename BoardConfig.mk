@@ -23,9 +23,6 @@ DEVICE_PATH := device/samsung/a50
 
 TARGET_OTA_ASSERT_DEVICE := a50
 
-# Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_a50
-
 ## APEX image
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
